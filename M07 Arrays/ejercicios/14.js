@@ -14,5 +14,5 @@ function multiplicarArgumentos() {
   const productoArgumentos = argumentArray.reduce((producto, Element) => producto * Element);
   return productoArgumentos;
 }
-console.log(multiplicarArgumentos(2, 2, 2, 2));
+//console.log(multiplicarArgumentos(2, 2, 2, 2));
 module.exports = multiplicarArgumentos;
