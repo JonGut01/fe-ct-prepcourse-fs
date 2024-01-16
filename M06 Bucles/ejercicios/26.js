@@ -13,5 +13,5 @@ function esAnagrama(str1, str2) {
 
   return str1Alverre === str2Alverre;
 }
-console.log(esAnagrama("hola mundo", "aloh mundo"));
+
 module.exports = esAnagrama;

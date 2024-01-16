@@ -5,5 +5,5 @@ function esPositivoOInferiorA10(a) {
   // Tu código:
   return a >= 0 && a < 10;
 }
-console.log(esPositivoOInferiorA10(9))
+
 module.exports = esPositivoOInferiorA10;
