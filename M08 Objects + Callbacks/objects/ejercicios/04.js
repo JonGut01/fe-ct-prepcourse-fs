@@ -3,7 +3,7 @@ function verificarPropiedad(objeto, propiedad) {
   // Retorna true si la tiene, sino retorna false.
   // PISTA: Puedes usar el método hasOwnProperty().
   // Tu código:
-
+                // este código arroja resultado negativo en test //
   return objeto.hasOwnProperty(propiedad) || propiedad in objeto;
 }
 // const datosPersonales = {

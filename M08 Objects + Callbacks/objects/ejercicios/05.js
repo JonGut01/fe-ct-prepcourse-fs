@@ -6,19 +6,19 @@ const listarPropiedades = (objeto) => {
   return propObj;
 };
 
-const datosPersonales = {
-    nombre: "Jonathan",
-    direccion: {
-      calle: "Cambre",
-      numero: 123,
-      ciudad: "Los Reartes",
-    },
-    hobbies: ["programación", "trading"], 
-  };
+// const datosPersonales = {
+//     nombre: "Jonathan",
+//     direccion: {
+//       calle: "Cambre",
+//       numero: 123,
+//       ciudad: "Los Reartes",
+//     },
+//     hobbies: ["programación", "trading"], 
+//   };
 
-  const otrosDatos = {};
+//   const otrosDatos = {};
 
-console.log(listarPropiedades(datosPersonales));
-console.log(listarPropiedades(otrosDatos));
+// console.log(listarPropiedades(datosPersonales));
+// console.log(listarPropiedades(otrosDatos));
 
 module.exports = listarPropiedades;
