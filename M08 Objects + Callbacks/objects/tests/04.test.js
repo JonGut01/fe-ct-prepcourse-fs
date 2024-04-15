@@ -1,6 +1,5 @@
 const verificarPropiedad = require("../ejercicios/04");
 
-describe("verificarPropiedad", () => { 
   test("verificarPropiedad returns true for existing property", () => {
     const obj = { name: "John", age: 30 };
     expect(verificarPropiedad(obj, "name")).toBe(true);
@@ -29,4 +28,3 @@ describe("verificarPropiedad", () => {
     });
     expect(verificarPropiedad(obj, "name")).toBe(false);
   });
-});

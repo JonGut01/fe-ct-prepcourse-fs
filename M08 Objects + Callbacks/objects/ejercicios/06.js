@@ -9,17 +9,17 @@ const contarPropiedades = (objeto) => {
   return contador;
 };
 
-const datosPersonales = {
-  nombre: "Jonathan",
-  apellido: "Gutierrez",
-  edad: 35,
-  contacto: {
-    tel: 3546549615,
-    email: null,
-    github: "johngut01",
-  },
-};
+// const datosPersonales = {
+//   nombre: "Jonathan",
+//   apellido: "Gutierrez",
+//   edad: 35,
+//   contacto: {
+//     tel: 3546549615,
+//     email: null,
+//     github: "johngut01",
+//   },
+// };
 
-console.log(contarPropiedades(datosPersonales));
+// console.log(contarPropiedades(datosPersonales));
 
 module.exports = contarPropiedades;

@@ -1,6 +1,6 @@
 const crearGato = require('../ejercicios/08');
 
-describe("crearGato", () => { 
+ 
   test('Debe crear un nuevo objeto con las propiedades "nombre", y "edad"', function () {
     expect(crearGato('Snowball', 1).nombre).toBe('Snowball');
     expect(crearGato('Snowball', 1).edad).toBe(1);
@@ -11,4 +11,4 @@ describe("crearGato", () => {
   test('Debe crear una propiedad "meow" que retorna el string "Meow!"', function () {
     expect(crearGato('Snowball III', 2).meow()).toBe('Meow!');
   });
-  });
+  

@@ -1,6 +1,5 @@
 const agregarNuevaPropiedad = require("../ejercicios/03");
 
-describe("agregarNuevaPropiedad", () => { 
   test("adds a new property to the object", () => {
     const obj = { name: "John", age: 30 };
     const result = agregarNuevaPropiedad(obj, "city", "New York");
@@ -24,4 +23,3 @@ describe("agregarNuevaPropiedad", () => {
     const result = agregarNuevaPropiedad(obj, "job", null);
     expect(result).toEqual({ name: "John", age: 30, job: null });
   });
-});

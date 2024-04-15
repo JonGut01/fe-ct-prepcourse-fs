@@ -1,6 +1,6 @@
 const obtenerValorPropiedad = require("../ejercicios/01.js");
 
-describe("obtenerValorPropiedad", () => {
+
   const objeto = {
     nombre: "Juan",
     edad: 30,
@@ -29,4 +29,4 @@ describe("obtenerValorPropiedad", () => {
       obtenerValorPropiedad(objeto, "direccion.codigoPostal")
     ).toBeUndefined();
   });
-});
+

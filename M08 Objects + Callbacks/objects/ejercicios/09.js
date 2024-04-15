@@ -10,7 +10,7 @@ function nuevoUsuario(nombre, email, password) {
   }
 return nvoObjeto;
 }
-var datos = nuevoUsuario("Jonathan", "JonGut01@github.com", 1234);
-console.log(datos);
+// var datos = nuevoUsuario("Jonathan", "JonGut01@github.com", 1234);
+// console.log(datos);
 
 module.exports = nuevoUsuario;

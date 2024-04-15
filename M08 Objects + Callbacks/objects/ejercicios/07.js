@@ -1,7 +1,7 @@
 // Crea un objeto con propiedades anidadas y 
 //un método que acceda a una de las propiedades anidadas utilizando `this`.
 
-var persona = {
+const objetoAnidado = {
     nombre: "Jonathan",
     edad: 36,
     direccion: {
@@ -15,6 +15,6 @@ var persona = {
     }
 };
 
-console.log(persona.obtenerCiudad());
+//console.log(objetoAnidado.obtenerCiudad());
 
 module.exports = objetoAnidado;

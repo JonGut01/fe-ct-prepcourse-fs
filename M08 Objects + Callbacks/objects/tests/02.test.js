@@ -1,6 +1,5 @@
 const actualizarValorPropiedad = require('../ejercicios/02');
 
-describe('actualizarValorPropiedad', () => {
   test('should update the value of an existing property', () => {
     const obj = { foo: 'bar' };
     const result = actualizarValorPropiedad(obj, 'foo', 'baz');
@@ -18,4 +17,4 @@ describe('actualizarValorPropiedad', () => {
     actualizarValorPropiedad(obj, 'foo', 'baz');
     expect(obj).toEqual({ foo: 'bar' });
   });
-});
+
