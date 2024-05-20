@@ -9,13 +9,13 @@ function agregarAmigo(objetoUsuario, nuevoAmigo) {
     }
     return objetoUsuario;
 }
-const persona = {
-  nombre: "Jonathan",
-  edad: 35,
-  email: "jonGut01@vsc.com",
-  password: 1234,
-  amigos: ["Jose", "Juan"]
-};
-console.log(agregarAmigo(persona, "Jaime"));
+// const persona = {
+//   nombre: "Jonathan",
+//   edad: 35,
+//   email: "jonGut01@vsc.com",
+//   password: 1234,
+//   amigos: ["Jose", "Juan"]
+// };
+// console.log(agregarAmigo(persona, "Jaime"));
 
 module.exports = agregarAmigo;

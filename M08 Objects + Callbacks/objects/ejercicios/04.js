@@ -3,16 +3,27 @@ function verificarPropiedad(objeto, propiedad) {
   // Retorna true si la tiene, sino retorna false.
   // PISTA: Puedes usar el método hasOwnProperty().
   // Tu código:
-                // este código arroja resultado negativo en test //
-  return objeto.hasOwnProperty(propiedad) || propiedad in objeto;
+
+ if (objeto.hasOwnProperty(propiedad)) {
+  return true;
+ } 
+ const propiedades = Object.getOwnPropertyNames(objeto);
+ if (propiedades.includes(propiedad)) {
+  return false;
+ }
+ for (let key in objeto) {
+  if (key === propiedad) {
+    return true;
+  }
+ }
+ return false;
 }
+
 // const datosPersonales = {
 //   nombre: "Jonathan",
-//   direccion: {
-//     calle: "Cambre",
-//     numero: false,
-//     ciudad: "Los Reartes",
-//   },
+//   calle: "Cambre",
+//   numero: 123,
+//   ciudad: "Los Reartes" 
 // };
 
 // console.log(verificarPropiedad(datosPersonales, "direccion"));
